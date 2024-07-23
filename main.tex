@@ -1,0 +1,214 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shaniraj Dnyaneshwar Korake} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:9321864490}{9321864490} $|$ 
+    \faAt \hspace{.5pt} \href{mailto:korakeom999@gmail.com}{korakeom999@gmail.com} \\
+    \faLinkedin \hspace{.5pt} \href{https://www.linkedin.com/in/shaniraj-korake/}{linkedin.com/in/shaniraj-korake} $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/ShanirajKorake}{github.com/ShanirajKorake} \\
+    \faMapMarker \hspace{.5pt} Bhose, Pandharpur, Dist. Solapur – 413315
+\end{center}
+
+%-----------OBJECTIVE-----------
+\section{Objective}
+To secure a challenging position in a reputable organization that allows me to utilize my technical skills and academic background while fostering innovation and continuous learning. I aim to contribute effectively to the company's growth while expanding my knowledge in software development.
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Programming Languages}{: C, C++, Java, VB.net, Python, JavaScript} \\
+    \textbf{Web Technologies}{: React.js, HTML, CSS} \\
+    \textbf{Backend Services}{: Appwrite} \\
+    \textbf{Soft Skills}{: Strong communication, leadership, teamwork, and presentation skills}
+    }}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Full-Stack Blog Application} $|$ \emph{JavaScript, React.js, Appwrite}}{2023}
+    \resumeItemListStart
+        \resumeItem{Developed a comprehensive blog application using JavaScript and React.js}
+        \resumeItem{Implemented backend functionality using Appwrite as a Backend-as-a-Service (BaaS) solution}
+        \resumeItem{Features include user authentication, CRUD operations for blog posts, and responsive design}
+    \resumeItemListEnd
+    \resumeProjectHeading
+    {\textbf{React Mini-Projects Portfolio} $|$ \emph{React.js, JavaScript}}{2023}
+    \resumeItemListStart
+        \resumeItem{Todo Application: Created a dynamic task management system with React}
+        \resumeItem{Theme Switcher: Implemented a customizable UI theme changer}
+        \resumeItem{Currency Converter: Developed a real-time currency conversion tool}
+        \resumeItem{Password Generator: Built a secure password generation utility with customizable parameters}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {M.Tech in Artificial Intelligence and Data Science}{Expected 2026}
+    {fabtech college of engineering}{Sangola}
+    \resumeSubheading
+    {Diploma in Computer Engineering}{2023}
+    {Vidya Pratishthan's Polytechnic College}{Indapur}
+    \resumeItemListStart
+        \resumeItem{Percentage: 65\%}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Secondary School Certificate (10th Standard)}{2020}
+    {Yashavant Vidyalay}{Bhose (k)}
+    \resumeItemListStart
+        \resumeItem{Percentage: 80.80\%}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Web Development}{: React.js, JavaScript} \\
+    \textbf{Programming Paradigms}{: Object-Oriented Programming} \\
+    \textbf{Database Management}{: MySQL, SQLite} \\
+    \textbf{Version Control}{: Git}
+    }}
+\end{itemize}
+
+%-----------PERSONAL QUALITIES-----------
+\section{Personal Qualities}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Quick learner with a passion for new technologies $|$
+    Exceptional presentation and communication skills $|$
+    Strong leadership abilities and patience $|$
+    Effective team player
+    }}
+\end{itemize}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Proficient in English, Hindi, and Marathi
+    }}
+\end{itemize}
+
+%-----------INTERESTS-----------
+\section{Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Web Development $|$
+    Coding and Software Development $|$
+    Traveling $|$
+    Music
+    }}
+\end{itemize}
+
+%-----------PERSONAL INFORMATION-----------
+\section{Personal Information}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Date of Birth}: 15 June 2005 $|$
+    \textbf{Nationality}: Indian
+    }}
+\end{itemize}
+
+\end{document}
