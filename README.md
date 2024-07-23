@@ -30,7 +30,7 @@ To secure a challenging position in a reputable organization that allows me to u
 
 ## Education
 
-### M.Tech in Artificial Intelligence and Data Science
+### B.Tech in Artificial Intelligence and Data Science
 *fabtech college of engineering, Sangola* | Expected 2026
 
 ### Diploma in Computer Engineering
